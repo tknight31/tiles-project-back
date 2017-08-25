@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20170824143638) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.float "score"
+    t.string "score"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "mode"
